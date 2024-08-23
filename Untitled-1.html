@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic Keyboard</title>
+    <link rel="stylesheet" href="body.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .keyboard-container {
+            margin-top: 20px;
+        }
+        textarea {
+            width: 80%;
+            height: 150px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+            direction: rtl; /* For Arabic text direction */
+        }
+        .keyboard-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="keyboard-title">Arabic Keyboard</h1>
+    <div class="keyboard-container">
+        <textarea id="output" placeholder="Start typing..."></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('file:///C:/Users/mbark/Documents/fond-mur-bleu-clair_146508-995.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.keyboard-container {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.8);
+    resize: none;
+    direction: rtl; /* For Arabic text direction */
+}
+
+.keyboard-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #e2e8f0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cbd5e0;
+}
+
+button:active {
+    background-color: #a0aec0;
+}
+
+button[data-key="space"] {
+    width: 200px;
+}
+
+button[data-key="backspace"] {
+    width: 100px;
+}
+s
